@@ -1,3 +1,4 @@
+`Note: This doesnt work for Token2022 tokens` 
 # Project Deployment
 [link here](https://escrow-frontend-hazel.vercel.app/)
 # Project Demo
