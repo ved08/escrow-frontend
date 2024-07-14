@@ -1,24 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import idl from "./IDL/idl.json"
+import WalletContextProvider from './WalletContextProvider';
+import Escrow from './components/Escrow';
+import Refund from './components/Refund';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <WalletContextProvider>
+          <Navbar />
+          <Escrow />
+          <small>Created by <a href='https://github.com/ved08'>Vedvardhan Gyanmote</a></small>
+      </WalletContextProvider>
     </div>
   );
 }

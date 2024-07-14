@@ -1,0 +1,70 @@
+.Main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3D2930;
+    align-items: center;
+    margin-top: 50px;
+}
+.Modal {
+    /* background-color: #68275d; */
+    width: 350px;
+    border-radius: 10px;
+    color: #3D2930;
+    height: 353px;
+    padding: 25px 0 25px 0;
+    border: 1px solid #B7CBE0;
+
+}
+select {
+    width: 300px;
+    height: 35px;    
+    border: 1px solid #1E293B;
+    border-radius: 5px;
+}
+.Token-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.Token-form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Token-form div input {
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #1E293B;
+}
+label {
+    text-align: left;
+}
+.Submit-form {
+    width: 200px;
+    height: 35px;
+    background-color: #EEC3E8;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    top: 71px;
+}
+.Submit-form:hover {
+    background-color: #1E293B;
+    color: white;
+}
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 20px;
+}
+.Refund-details {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

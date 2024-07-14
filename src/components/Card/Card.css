@@ -1,0 +1,44 @@
+
+.Card {
+    box-sizing: border-box;
+    background-color: #EFF7FF;
+    border: 1px solid #B7CBE0;
+    border-radius: 5px;
+    color: #2B3844;
+    max-width: 300px;
+    width: 300px;
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Card p {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.Card h5 {
+    margin: 0;
+    margin-top: 10px;
+}
+.Deal {
+    padding: 10px;
+    background-color: #EEC3E8;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.Deal:hover {
+    background-color: #1E293B;
+    color: white;
+}
+.Card h2{
+    margin: 0;
+}
+.Card p {
+    margin: 0;
+}

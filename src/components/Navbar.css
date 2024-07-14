@@ -1,0 +1,18 @@
+.Navbar {
+    background-color: #1E293B;
+    height: 80px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+.Navbar span {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar span * {
+    margin-right: 5px;
+}
