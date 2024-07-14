@@ -4,6 +4,8 @@
 [loom video](https://www.loom.com/share/7851784b39174fb4bcba3bce10f28a0c?sid=77899211-41f8-4786-aeda-14c23b26642a)
 # Overview
 This frontend allows users to interact with an escrow contract on the blockchain. There are three main actions: creating, cancelling, and finalizing an escrow.
+## Get Test Tokens
+First, before interacting with the program, you can get yourself some test UDSC and EURC tokens from [here](https://faucet.circle.com/)
 ## Actions
 1. Create Escrow
    - Click "Create Escrow" to open a modal.
